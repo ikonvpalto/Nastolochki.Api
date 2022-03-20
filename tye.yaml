@@ -1,0 +1,7 @@
+name: nastolochkiapi
+services:
+- name: users-api
+  project: Users/Users.Api/Users.Api.csproj
+  bindings:
+    - port: 5000
+  dockerFile: Users/Users.Api/Dockerfile
