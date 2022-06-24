@@ -1,7 +1,21 @@
-name: nastolochkiapi
+name: nastolochki.api
 services:
-- name: users-api
-  project: Users/Users.Api/Users.Api.csproj
-  bindings:
-    - port: 5000
-  dockerFile: Users/Users.Api/Dockerfile
+
+#  - name: users-api
+#    project: Users/Users.Api/Users.Api.csproj
+#    bindings:
+#      - port: 5000
+
+  - name: events-api
+    project: Events/Events.Api/Events.Api.csproj
+    bindings:
+      - port: 5001
+
+  - name: events-db
+    image: postgres
+    bindings:
+      - port: 5432
+        connectionString: Host=${host};Port=${port};Database=${env:POSTGRES_DATABASE};Username=${env:POSTGRES_USER};Password=${env:POSTGRES_PASSWORD};
+    env_file:
+      - Events/Events.Api/Properties/.env
+

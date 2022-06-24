@@ -1,0 +1,59 @@
+﻿<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EventNotFound" xml:space="preserve">
+    <value>Событие {0} не найдено</value>
+  </data>
+  <data name="EventGuidAlreadyExists" xml:space="preserve">
+    <value>Событие {0} уже существует</value>
+  </data>
+  <data name="LocationNotFound" xml:space="preserve">
+    <value>Место {0} не найдено</value>
+  </data>
+  <data name="LocationGuidAlreadyExists" xml:space="preserve">
+    <value>Место {0} уже существует</value>
+  </data>
+  <data name="EventAlredyExists" xml:space="preserve">
+    <value>Событие уже существует</value>
+  </data>
+  <data name="EventTimeDatesIsEmpty" xml:space="preserve">
+    <value>У события должны быть указаны дата и время</value>
+  </data>
+  <data name="EventOutdated" xml:space="preserve">
+    <value>Событие нельзя планировать на прошедшие дату и время</value>
+  </data>
+  <data name="EventNameIsEmpty" xml:space="preserve">
+    <value>У события должно быть название</value>
+  </data>
+  <data name="EventNameTooLong" xml:space="preserve">
+    <value>Длина названия события должна быть не больше 200</value>
+  </data>
+  <data name="LocationAddressTooLong" xml:space="preserve">
+    <value>Длина адреса должна быть не больше 300</value>
+  </data>
+  <data name="LocationNameTooLong" xml:space="preserve">
+    <value>Длина названия места должна быть не больше 300</value>
+  </data>
+  <data name="EventDescriptionTooLong" xml:space="preserve">
+    <value>Длина описания события должна быть не больше 2000</value>
+  </data>
+  <data name="EventNoParticipants" xml:space="preserve">
+    <value>У события должны быть участники</value>
+  </data>
+  <data name="LocationAddressIsEmpty" xml:space="preserve">
+    <value>Адрес должен быть указан</value>
+  </data>
+  <data name="InternalError" xml:space="preserve">
+    <value>Упс, что-то пошло не так</value>
+  </data>
+</root>

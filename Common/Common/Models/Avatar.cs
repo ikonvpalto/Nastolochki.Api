@@ -1,6 +1,6 @@
 ﻿namespace Kvpbldsck.NastolochkiAPI.Common.Contract.Models;
 
-public sealed record Avatar
+public sealed class Avatar
 {
     public Uri Uri { get; init; }
 }
